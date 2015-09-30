@@ -2,13 +2,14 @@
 #define DOUBLE_SPACE
 
 #include <iostream>
+#include <cstring>
 
-void print_double_spaced(const char[] cs)
+void print_double_spaced(const char cs[])
 {
     int str_length = strlen(cs);
     for(int index = 0; index < str_length - 1; index++)
         std::cout << cs[index] << ' ';
-    std::cout << cs[str_lenth -1];
+    std::cout << cs[str_length -1];
 }
 
 #endif // DOUBLE_SPACE
