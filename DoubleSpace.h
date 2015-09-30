@@ -3,6 +3,9 @@
 
 #include <iostream>
 
+void print_double_spaced(const char[] cs)
+{
 
+}
 
 #endif // DOUBLE_SPACE
