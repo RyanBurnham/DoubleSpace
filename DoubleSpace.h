@@ -1,0 +1,3 @@
+#ifndef DOUBLE_SPACE
+#define DOUBLE_SPACE
+#endif // DOUBLE_SPACE
